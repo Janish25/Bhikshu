@@ -7607,6 +7607,9 @@ h1, h2, h3, h4, h5,
         .owl-carousel.home-slider .slider-item {
           background-position: center center !important; } }
       .owl-carousel.home-slider .slider-item .overlay {
+
+        background-attachment: scroll;
+    overflow-x: hidden;
         position: absolute;
         top: 0;
         bottom: 0;
